@@ -1,6 +1,6 @@
 # [Portofolio](https://georgeoprea1.github.io/reactPortofolio/)
 
-![portofolio UI](../reactPortofolio/src/assets/portofolioUI.jpg)
+![portofolio UI](./assets/portofolioUI.jpg)
 
 ## Technologies
 
