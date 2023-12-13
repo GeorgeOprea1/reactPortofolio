@@ -11,7 +11,11 @@ const ProjectItem = ({ img, title, link }) => {
           {title}
         </h3>
         <p className="text-center pb-4 pt-2 text-white">JavaScript</p>
-        <a href={link}>
+        <a
+          href={link}
+          target="_balck"
+          aria-label="click on this link to see the project"
+        >
           <p className="text-center p-3 rounded-lg bg-white text-gray-700 font-bold cursor-pointer text-lg">
             More Info
           </p>

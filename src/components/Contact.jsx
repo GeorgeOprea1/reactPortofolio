@@ -11,43 +11,58 @@ const Contact = () => {
       >
         <div className="grid md:grid-cols-2 gap-4 w-full py-2">
           <div className="flex flex-col">
-            <label className="uppercase text-sm py-2">Name</label>
+            <label htmlFor="name" className="uppercase text-sm py-2">
+              Name
+            </label>
             <input
               type="text"
               name="name"
+              id="name"
               className="border-2 rounded-lg p-3 flex border-gray-300"
             />
           </div>
           <div className="flex flex-col">
-            <label className="uppercase text-sm py-2">Phone</label>
+            <label htmlFor="phone" className="uppercase text-sm py-2">
+              Phone
+            </label>
             <input
               type="text"
               name="phone"
+              id="phone"
               className="border-2 rounded-lg p-3 flex border-gray-300"
             />
           </div>
         </div>
         <div className="flex flex-col py-2">
-          <label className="uppercase text-sm py-2">Email</label>
+          <label htmlFor="email" className="uppercase text-sm py-2">
+            Email
+          </label>
           <input
             type="email"
             name="email"
+            id="email"
             className="border-2 rounded-lg p-3 flex border-gray-300"
           />
         </div>
         <div className="flex flex-col py-2">
-          <label className="uppercase text-sm py-2">Subject</label>
+          <label htmlFor="subject" className="uppercase text-sm py-2">
+            Subject
+          </label>
           <input
             type="text"
             name="subject"
+            id="subject"
             className="border-2 rounded-lg p-3 flex border-gray-300"
           />
         </div>
         <div className="flex flex-col py-2">
-          <label className="uppercase text-sm py-2">Message</label>
+          <label htmlFor="message" className="uppercase text-sm py-2">
+            Message
+          </label>
           <textarea
             rows="10"
             name="message"
+            id="message"
             className="border-2 rounded-lg p-3 flex border-gray-300"
           ></textarea>
         </div>

@@ -34,28 +34,35 @@ const Main = () => {
             />
           </h2>
           <div className="flex justify-between pt-6 max-w-[200px] w-full">
-            <a href="https://github.com/GeorgeOprea1">
+            <a
+              href="https://github.com/GeorgeOprea1"
+              aria-label="Go to my gitHub account to see more"
+            >
               <FaGithub
                 className="cursor-pointer hover:scale-150 ease-in duration-200"
                 size={20}
+                alt="gitHub icon"
               />
             </a>
-            <a href="/">
+            <a href="/" aria-label="Go to my Linkedin account to see more">
               <FaLinkedinIn
                 className="cursor-pointer hover:scale-150 ease-in duration-200"
                 size={20}
+                alt="Linkedin icon"
               />
             </a>{" "}
-            <a href="/">
+            <a href="/" aria-label="Go to my Instagram account to see more">
               <FaInstagram
                 className="cursor-pointer hover:scale-150 ease-in duration-200"
                 size={20}
+                alt="Instagram icon"
               />
             </a>
-            <a href="#contact">
+            <a href="#contact" aria-label="Go to contact section to see more">
               <MdEmail
                 className="cursor-pointer hover:scale-150 ease-in duration-200"
                 size={20}
+                alt="email icon"
               />
             </a>
           </div>
