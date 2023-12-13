@@ -1,4 +1,4 @@
-import bgImage from "../assets/bgImage.jpg";
+import bgImage from "../assets/bgImage.avif";
 import { TypeAnimation } from "react-type-animation";
 import { FaInstagram, FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";

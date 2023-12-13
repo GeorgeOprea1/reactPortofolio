@@ -1,8 +1,8 @@
 import ProjectItem from "./ProjectItem";
-import restaurantApp from "../assets/restaurantApp.jpg";
-import sketchApp from "../assets/sketchApp.jpg";
+import restaurantApp from "../assets/restaurantApp.avif";
+import sketchApp from "../assets/sketchApp.avif";
 import weatherApp from "../assets/weatherApp.avif";
-import whackApp from "../assets/whackApp.jpg";
+import whackApp from "../assets/whackApp.avif";
 
 const Projects = () => {
   return (

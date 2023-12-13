@@ -4,7 +4,7 @@ import html from "../assets/html.svg";
 import javascript from "../assets/javascript.svg";
 import tailwind from "../assets/tailwind.svg";
 import node from "../assets/node.svg";
-import myPhoto from "../assets/myPhoto.jpg";
+import myPhoto from "../assets/myPhoto.avif";
 
 const About = () => {
   return (
@@ -39,9 +39,9 @@ const About = () => {
         </div>
       </div>
       <div className="flex flex-col justify-center items-center gap-10">
-        <h3 className="text-lg font-bold text-[#001b5e] my-6">
+        <h1 className="text-lg font-bold text-[#001b5e] my-6">
           Technologies I've worked with:
-        </h3>
+        </h1>
         <div className=" flex justify-between p-8 items-center">
           <img
             className="w-[5%] hover:scale-150 ease-in duration-200 cursor-pointer "
