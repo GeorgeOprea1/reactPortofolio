@@ -3,6 +3,8 @@ import restaurantApp from "../assets/restaurantApp.avif";
 import sketchApp from "../assets/sketchApp.avif";
 import weatherApp from "../assets/weatherApp.avif";
 import whackApp from "../assets/whackApp.avif";
+import cvBuilder from "../assets/cvBuilder.avif";
+import memoryCard from "../assets/memoryCard.avif";
 
 const Projects = () => {
   return (
@@ -20,24 +22,40 @@ const Projects = () => {
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
         <ProjectItem
+          link="https://github.com/GeorgeOprea1/cv-builder"
+          img={cvBuilder}
+          title="cvBuilderApp"
+          used="React"
+        />
+        <ProjectItem
+          link="https://github.com/GeorgeOprea1/memory-card-game"
+          img={memoryCard}
+          title="memoryCardApp"
+          used="React"
+        />
+        <ProjectItem
           link="https://github.com/GeorgeOprea1/weatherApp"
           img={weatherApp}
           title="weatherApp"
+          used="JavaScript"
         />
         <ProjectItem
           link="https://github.com/GeorgeOprea1/etch-a-sketch."
           img={sketchApp}
           title="sketchApp"
+          used="JavaScript"
         />
         <ProjectItem
           link="https://github.com/GeorgeOprea1/whack-a-mole"
           img={whackApp}
           title="whackApp"
+          used="JavaScript"
         />
         <ProjectItem
           link="https://github.com/GeorgeOprea1/restaurant-page"
           img={restaurantApp}
           title="RestaurantApp"
+          used="JavaScript"
         />
       </div>
     </div>
