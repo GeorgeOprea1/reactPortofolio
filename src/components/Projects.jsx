@@ -1,11 +1,10 @@
 import ProjectItem from "./ProjectItem";
-import restaurantApp from "../assets/restaurantApp.avif";
 import sketchApp from "../assets/sketchApp.avif";
 import weatherApp from "../assets/weatherApp.avif";
 import whackApp from "../assets/whackApp.avif";
 import cvBuilder from "../assets/cvBuilder.avif";
 import memoryCard from "../assets/memoryCard.avif";
-
+import chicTrend from "../assets/Chic-trend-UI.avif";
 const Projects = () => {
   return (
     <div id="projects" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
@@ -25,6 +24,12 @@ const Projects = () => {
           link="https://github.com/GeorgeOprea1/cv-builder"
           img={cvBuilder}
           title="cvBuilderApp"
+          used="React"
+        />
+        <ProjectItem
+          link="https://chic-trend.netlify.app"
+          img={chicTrend}
+          title="Chic-Trend"
           used="React"
         />
         <ProjectItem
@@ -49,12 +54,6 @@ const Projects = () => {
           link="https://github.com/GeorgeOprea1/whack-a-mole"
           img={whackApp}
           title="whackApp"
-          used="JavaScript"
-        />
-        <ProjectItem
-          link="https://github.com/GeorgeOprea1/restaurant-page"
-          img={restaurantApp}
-          title="RestaurantApp"
           used="JavaScript"
         />
       </div>
