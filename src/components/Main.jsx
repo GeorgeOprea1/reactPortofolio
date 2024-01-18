@@ -50,8 +50,11 @@ const Main = () => {
                 size={20}
                 alt="Linkedin icon"
               />
-            </a>{" "}
-            <a href="/" aria-label="Go to my Instagram account to see more">
+            </a>
+            <a
+              href="https://www.instagram.com/georgeoprea_/"
+              aria-label="Go to my Instagram account to see more"
+            >
               <FaInstagram
                 className="cursor-pointer hover:scale-150 ease-in duration-200"
                 size={20}
