@@ -13,7 +13,8 @@ const ProjectItem = ({ img, title, link, used }) => {
         <p className="text-center pb-4 pt-2 text-white">{used}</p>
         <a
           href={link}
-          target="_balck"
+          target="_blank"
+          rel="noreferrer"
           aria-label="click on this link to see the project"
         >
           <p className="text-center p-3 rounded-lg bg-white text-gray-700 font-bold cursor-pointer text-lg">
