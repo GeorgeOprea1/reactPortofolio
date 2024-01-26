@@ -27,7 +27,7 @@ const Projects = () => {
           used="React"
         />
         <ProjectItem
-          link="https://chic-trend.netlify.app"
+          link="https://github.com/GeorgeOprea1/chic-trend"
           img={chicTrend}
           title="Chic-Trend"
           used="React"
