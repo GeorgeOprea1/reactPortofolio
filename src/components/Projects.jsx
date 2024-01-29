@@ -1,7 +1,7 @@
 import ProjectItem from "./ProjectItem";
 import sketchApp from "../assets/sketchApp.avif";
 import weatherApp from "../assets/weatherApp.avif";
-import whackApp from "../assets/whackApp.avif";
+import bank from "../assets/bank.webp";
 import cvBuilder from "../assets/cvBuilder.avif";
 import memoryCard from "../assets/memoryCard.avif";
 import chicTrend from "../assets/Chic-trend-UI.avif";
@@ -45,15 +45,15 @@ const Projects = () => {
           used="JavaScript"
         />
         <ProjectItem
+          link="https://github.com/GeorgeOprea1/bank"
+          img={bank}
+          title="h00-bank"
+          used="React"
+        />
+        <ProjectItem
           link="https://github.com/GeorgeOprea1/etch-a-sketch."
           img={sketchApp}
           title="sketchApp"
-          used="JavaScript"
-        />
-        <ProjectItem
-          link="https://github.com/GeorgeOprea1/whack-a-mole"
-          img={whackApp}
-          title="whackApp"
           used="JavaScript"
         />
       </div>
