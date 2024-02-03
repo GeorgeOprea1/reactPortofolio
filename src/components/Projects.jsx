@@ -33,9 +33,9 @@ const Projects = () => {
           used="React"
         />
         <ProjectItem
-          link="https://github.com/GeorgeOprea1/memory-card-game"
+          link="https://github.com/GeorgeOprea1/phineas-ferb-game"
           img={memoryCard}
-          title="memoryCardApp"
+          title="memoryGameApp"
           used="React"
         />
         <ProjectItem
