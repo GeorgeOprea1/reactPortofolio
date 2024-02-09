@@ -39,10 +39,10 @@ const Projects = () => {
           used="React"
         />
         <ProjectItem
-          link="https://github.com/GeorgeOprea1/weatherApp"
+          link="https://github.com/GeorgeOprea1/React-WheaterApp"
           img={weatherApp}
           title="weatherApp"
-          used="JavaScript"
+          used="React"
         />
         <ProjectItem
           link="https://github.com/GeorgeOprea1/bank"
