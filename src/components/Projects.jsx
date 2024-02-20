@@ -5,6 +5,9 @@ import bank from "../assets/bank.webp";
 import cvBuilder from "../assets/cvBuilder.avif";
 import memoryCard from "../assets/memoryCard.avif";
 import chicTrend from "../assets/Chic-trend-UI.avif";
+import millionaire from "../assets/millionaire.avif";
+import destination from "../assets/destination.avif";
+
 const Projects = () => {
   return (
     <div id="projects" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
@@ -31,13 +34,19 @@ const Projects = () => {
           img={chicTrend}
           title="Chic-Trend"
           used="React"
+        />{" "}
+        <ProjectItem
+          link="https://github.com/GeorgeOprea1/quiz-game"
+          img={millionaire}
+          title="quizApp"
+          used="React"
         />
         <ProjectItem
           link="https://github.com/GeorgeOprea1/phineas-ferb-game"
           img={memoryCard}
           title="memoryGameApp"
           used="React"
-        />
+        />{" "}
         <ProjectItem
           link="https://github.com/GeorgeOprea1/React-WheaterApp"
           img={weatherApp}
@@ -45,16 +54,22 @@ const Projects = () => {
           used="React"
         />
         <ProjectItem
-          link="https://github.com/GeorgeOprea1/bank"
-          img={bank}
-          title="h00-bank"
-          used="React"
-        />
-        <ProjectItem
           link="https://github.com/GeorgeOprea1/etch-a-sketch."
           img={sketchApp}
           title="sketchApp"
           used="JavaScript"
+        />
+        <ProjectItem
+          link="https://github.com/GeorgeOprea1/next-destination"
+          img={destination}
+          title="nextDestination"
+          used="React"
+        />{" "}
+        <ProjectItem
+          link="https://github.com/GeorgeOprea1/bank"
+          img={bank}
+          title="h00-bank"
+          used="React"
         />
       </div>
     </div>
