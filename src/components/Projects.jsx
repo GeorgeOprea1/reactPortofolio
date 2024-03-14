@@ -1,5 +1,5 @@
 import ProjectItem from "./ProjectItem";
-import sketchApp from "../assets/sketchApp.avif";
+import disney from "../assets/disney.avif";
 import weatherApp from "../assets/weatherApp.avif";
 import bank from "../assets/bank.webp";
 import cvBuilder from "../assets/cvBuilder.avif";
@@ -24,6 +24,18 @@ const Projects = () => {
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
         <ProjectItem
+          link="https://github.com/GeorgeOprea1/Disney-clone"
+          img={disney}
+          title="disney+"
+          used="React"
+        />{" "}
+        <ProjectItem
+          link="https://github.com/GeorgeOprea1/quiz-game"
+          img={millionaire}
+          title="quizApp"
+          used="React"
+        />
+        <ProjectItem
           link="https://github.com/GeorgeOprea1/cv-builder"
           img={cvBuilder}
           title="cvBuilderApp"
@@ -36,12 +48,6 @@ const Projects = () => {
           used="React"
         />{" "}
         <ProjectItem
-          link="https://github.com/GeorgeOprea1/quiz-game"
-          img={millionaire}
-          title="quizApp"
-          used="React"
-        />
-        <ProjectItem
           link="https://github.com/GeorgeOprea1/phineas-ferb-game"
           img={memoryCard}
           title="memoryGameApp"
@@ -52,12 +58,6 @@ const Projects = () => {
           img={weatherApp}
           title="weatherApp"
           used="React"
-        />
-        <ProjectItem
-          link="https://github.com/GeorgeOprea1/etch-a-sketch."
-          img={sketchApp}
-          title="sketchApp"
-          used="JavaScript"
         />
         <ProjectItem
           link="https://github.com/GeorgeOprea1/next-destination"
