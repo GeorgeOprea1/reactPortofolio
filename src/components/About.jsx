@@ -5,6 +5,7 @@ import javascript from "../assets/javascript.svg";
 import tailwind from "../assets/tailwind.svg";
 import node from "../assets/node.svg";
 import myPhoto from "../assets/myPhoto.avif";
+import next from "../assets/next.svg";
 
 const About = () => {
   return (
@@ -42,34 +43,39 @@ const About = () => {
         <h1 className="text-lg font-bold text-[#001b5e] my-6">
           Technologies I've worked with:
         </h1>
-        <div className=" flex justify-between p-8 items-center">
+        <div className="flex justify-between p-8 items-center">
           <img
-            className="w-[5%] hover:scale-150 ease-in duration-200 cursor-pointer "
+            className="w-[10%] sm:w-[7%] hover:scale-150 ease-in duration-200 cursor-pointer "
             src={html}
             alt="html logo"
           />
           <img
-            className="w-[5%] hover:scale-150 ease-in duration-200 cursor-pointer"
+            className="w-[10%] sm:w-[7%]   hover:scale-150 ease-in duration-200 cursor-pointer"
             src={css}
             alt="css logo"
           />
           <img
-            className="w-[5%] hover:scale-150 ease-in duration-200 cursor-pointer"
+            className="w-[10%] sm:w-[7%]   hover:scale-150 ease-in duration-200 cursor-pointer"
             src={javascript}
             alt="javascript logo"
           />
           <img
-            className="w-[5%] hover:scale-150 ease-in duration-200 cursor-pointer"
+            className="w-[10%] sm:w-[7%]  hover:scale-150 ease-in duration-200 cursor-pointer"
             src={tailwind}
             alt="tailwind logo"
           />
           <img
-            className="w-[5%] hover:scale-150 ease-in duration-200 cursor-pointer"
+            className="w-[10%] sm:w-[7%]   hover:scale-150 ease-in duration-200 cursor-pointer"
             src={react}
             alt="react logo"
           />
           <img
-            className="w-[5%] hover:scale-150 ease-in duration-200 cursor-pointer"
+            className="w-[10%] sm:w-[7%]  hover:scale-150 ease-in duration-200 cursor-pointer"
+            src={next}
+            alt="NextJs logo"
+          />
+          <img
+            className="w-[10%] sm:w-[7%]   hover:scale-150 ease-in duration-200 cursor-pointer"
             src={node}
             alt="node logo"
           />

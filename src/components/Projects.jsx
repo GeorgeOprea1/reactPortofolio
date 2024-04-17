@@ -4,9 +4,9 @@ import weatherApp from "../assets/weatherApp.avif";
 import bank from "../assets/bank.webp";
 import cvBuilder from "../assets/cvBuilder.avif";
 import memoryCard from "../assets/memoryCard.avif";
-import chicTrend from "../assets/Chic-trend-UI.avif";
 import millionaire from "../assets/millionaire.avif";
 import destination from "../assets/destination.avif";
+import stpizza from "../assets/stpizza.avif";
 
 const Projects = () => {
   return (
@@ -24,17 +24,17 @@ const Projects = () => {
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
         <ProjectItem
-          link="https://github.com/GeorgeOprea1/Disney-clone"
-          img={disney}
-          title="disney+"
-          used="React"
+          link="https://github.com/GeorgeOprea1/food-ordering-app"
+          img={stpizza}
+          title="St-Pizza"
+          used="NextJs"
         />{" "}
         <ProjectItem
-          link="https://github.com/GeorgeOprea1/quiz-game"
-          img={millionaire}
-          title="quizApp"
+          link="https://github.com/GeorgeOprea1/Disney-clone"
+          img={disney}
+          title="Disney+"
           used="React"
-        />
+        />{" "}
         <ProjectItem
           link="https://github.com/GeorgeOprea1/cv-builder"
           img={cvBuilder}
@@ -42,11 +42,11 @@ const Projects = () => {
           used="React"
         />
         <ProjectItem
-          link="https://github.com/GeorgeOprea1/chic-trend"
-          img={chicTrend}
-          title="Chic-Trend"
+          link="https://github.com/GeorgeOprea1/quiz-game"
+          img={millionaire}
+          title="quizApp"
           used="React"
-        />{" "}
+        />
         <ProjectItem
           link="https://github.com/GeorgeOprea1/phineas-ferb-game"
           img={memoryCard}
